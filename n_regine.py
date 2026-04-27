@@ -51,7 +51,7 @@ class NRegine():
                         # backtracking
                         parziale.pop()
 
-    #confrontiamo la solluzione potenziale con tutte quelle già trovate
+    #confrontiamo la soluzione potenziale con tutte quelle già trovate
     # se è diversa, restituiamo True, altrimenti False
     def _is_nuova_soluzione(self, soluzione_potenziale) -> bool:
         N = len(soluzione_potenziale)
